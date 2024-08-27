@@ -1,0 +1,16 @@
+
+h1{color: blue;
+    border: 3px solid red;
+    }
+    .parrafoRojo{
+        font-size: 35px;
+    border:  3px solid rgb(255, 0, 0);
+    padding-bottom: 120px;
+    }
+
+    .parrafoBonito{
+        color: coral;
+        background-color: aquamarine;
+        border: 2px solid orange;
+        margin-top: 120px;
+    }
