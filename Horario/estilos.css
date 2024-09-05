@@ -1,0 +1,76 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(238, 159, 209);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  tr:nth-of-type(1){
+    background-color: rgb(213, 80, 80);
+  }
+
+  td, th {
+    border: 2px solid rgb(238, 159, 209);
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  caption {
+    padding: 10px;
+  }
+
+  body{
+    align-items: center;
+    justify-content: center;
+    background: rgb(238, 159, 209);
+  }
+
+  tr:nth-of-type(1) > th,
+  tr:nth-of-type(2) > th,
+  tr:nth-of-type(3) > th,
+  tr:nth-of-type(4) > th,
+  tr:nth-of-type(5) > th,
+  tr:nth-of-type(6) > th,
+  tr:nth-of-type(7) > th,
+  tr:nth-of-type(8) > th
+  {background-color: rgb(241, 108, 108);
+  }
+  
+  tr:hover {
+    background: rgb(226, 61, 182);
+    }
+
+    .naranja{
+      background-color: rgb(239, 158, 91);
+    }
+
+    .amarillo{
+      background-color: rgb(227, 242, 92);
+    }
+
+    .verde{
+      background-color: rgb(81, 234, 99);
+    }
+
+    .aqua{
+      background-color: rgb(100, 226, 235);
+    }
+
+    .azul{
+      background-color: rgb(103, 103, 235);
+    }
+
+    .lila{
+      background-color: blueviolet;
+    }
+
+    .barbie{
+      background-color: rgb(245, 93, 186);
+    }
