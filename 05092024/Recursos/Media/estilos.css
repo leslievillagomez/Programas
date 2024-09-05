@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(241, 141, 235);
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+    padding: 5em;
+}
+
+.fondoBlanco{
+    background-color: aliceblue;
+}
+.fondoAzul{
+    background-color: blueviolet;
+}
+.fondoNegro{
+    background-color: black;
+}
+p{
+    color: blue;
+    font-size: 25px;
+   
+}
+.imagen{
+    width: 150px;
+    
+}
+.texto1{
+    text-align: center;
+    font-size: 3em;
+    color: magenta;
+}
+.texto2{
+font-size: 1em;
+color: beige;
+text-align: justify;
+}
+.separacion{
+padding: 1em;
+background-color: pink;
+}
+.texto3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.borde{
+    border: 10px solid white;
+    border-radius: 10px;
+}
+.negro{
+    text-align: center;
+    background-color: rgb(226, 41, 168);
+    
+}
+.bordecito{
+    border: 2px solid beige;
+    border-radius: 5em;
+}
+.bordeRosa{
+    border: 2px solid pink;
+    border-radius: 15px;
+}
+li{
+    padding: 10px;
+}
+.prueba{
+    
+}
