@@ -1,0 +1,19 @@
+
+
+.centro{
+    text-align: center;
+    border: 2px, solid, pink;
+    display: inline-block;
+            padding: 20px;
+    
+}
+.fondo1{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(186,209,87,1) 21%, rgba(175,170,117,1) 27%, rgba(150,83,186,1) 36%, rgba(164,81,175,1) 42%, rgba(252,70,107,1) 49%, rgba(152,83,184,1) 96%);
+}
+
+.fondo2{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(118,87,209,1) 23%, rgba(150,83,186,1) 36%, rgba(152,83,184,1) 37%, rgba(164,81,175,1) 42%, rgba(252,70,107,1) 79%);
+    
+}
