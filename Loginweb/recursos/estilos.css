@@ -1,0 +1,266 @@
+/* Configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Fuente redondeada */
+}
+
+body {
+    background-color: rgb(222, 124, 165); /* Fondo rosa claro */
+    color: rgb(116, 9, 56); /* Texto en marrón oscuro */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 100;
+}
+
+
+/* Header */
+header {
+    background-color: rgb(204, 43, 82); /* Fondo rosa claro */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    text-align: center; /* Centrar todo el contenido */
+}
+
+/* Contenedor principal del header */
+.header-container {
+    display: flex; /* Usamos flexbox para distribuir los elementos */
+    justify-content: space-between; /* Distribuir los elementos horizontalmente */
+    align-items: center; /* Alinear los elementos en el centro verticalmente */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Contenedor del logo */
+.header-logo {
+    flex: 1; /* Ocupa el espacio restante disponible */
+}
+
+/* Logo más pequeño */
+.logo-img {
+    width: 100px; /* Ajustamos el tamaño del logo */
+    height: auto;
+}
+
+/* Contenedor del menú de navegación */
+.header-nav {
+    display: flex; /* Usamos flexbox para las secciones de navegación */
+    justify-content: space-between; /* Distribuir las secciones horizontalmente */
+    align-items: center; /* Alinear los elementos en el centro verticalmente */
+    flex: 2; /* Ocupa el espacio restante */
+}
+
+/* Cada ítem de navegación */
+.nav-item {
+    margin-left: 20px; /* Espacio entre los elementos */
+}
+
+/* Estilo de los enlaces */
+.header-nav a {
+    text-decoration: none;
+    color: rgb(116, 9, 56);; /* Color de texto marrón */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+/* Cambio de color cuando el ratón pasa sobre el enlace */
+.header-nav a:hover {
+    background-color: rgb(222, 124, 165); /* Fondo rojo cuando se pasa el ratón */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Los elementos se organizan verticalmente en pantallas pequeñas */
+    }
+}
+
+/* Contenido principal */
+main {
+    flex: 1;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffc1e3; /* Fondo rosa suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #ad1457; /* Rosa oscuro */
+    margin-bottom: 20px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #ffccbc; /* Fondo de tarjeta rosa suave */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding: 10px;
+    font-size: 1rem;
+    color: #6d4c41; /* Marrón para texto */
+}
+
+/* Tabla */
+
+
+/* Estilo de la tabla */
+table {
+    width: 90%;
+    margin: 50px auto; /* Centrado en la página */
+    border-collapse: collapse; /* Colapsar bordes */
+    box-shadow: 0 4px 6px rgba(254, 254, 254, 0.961); /* Sombra para darle profundidad */
+    background-color: white; /* Fondo blanco para la tabla */
+}
+
+/* Encabezado de la tabla */
+th {
+    background-color: #f8bbd0; /* Fondo rosa claro para los encabezados */
+    color: rgb(116, 9, 56); /* Texto marrón oscuro */
+    padding: 15px; /* Espaciado en el encabezado */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo de las celdas */
+td {
+    background-color: #ffebee; /* Fondo rosado para las celdas */
+    color: rgb(116, 9, 56); /* Texto marrón oscuro */
+    padding: 12px; /* Espaciado en las celdas */
+    text-align: center; /* Centrar el texto */
+    border-bottom: 1px solid #d32f2f; /* Línea divisoria roja entre celdas */
+    border-radius: 5px; /* Bordes de las celdas redondeados */
+}
+
+/* Asegura que las celdas tengan un espacio de separación */
+td:first-child, th:first-child {
+    border-left: 1px solid #d32f2f; /* Borde izquierdo */
+}
+
+td:last-child, th:last-child {
+    border-right: 1px solid #d32f2f; /* Borde derecho */
+}
+
+/* Resaltar la fila al pasar el ratón */
+tr:hover {
+    background-color: #f1c6c6; /* Fondo rosa suave al pasar el ratón */
+}
+
+/* Estilo para el pie de la tabla */
+tfoot {
+    background-color: #f8bbd0;
+    font-weight: bold;
+    color: rgb(116, 9, 56);
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Botones */
+.btn-custom {
+    background-color: #d32f53; /* Rojo fuerte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #b71c1c; /* Hover con un rojo más oscuro */
+}
+
+/* Enlaces */
+.volver a {
+    color: #d32f2f; /* Rojo fuerte */
+    text-decoration: none;
+}
+
+.volver a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(175, 23, 64); /* Rosa oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: auto;
+    padding: 20;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff80ab; /* Rosa claro */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.imagen-derecha {
+    width: 200px;
+    float: right;
+    margin-right: 20%;
+    
+}
+.wrapper {
+    flex: 1;
+}
+.form-section {
+    margin: 15px 0; /* Espacio vertical entre cada sección */
+    text-align: center; /* Centra los botones dentro de cada div */
+}
+
+/* Estilos generales para el formulario */
+.form-container {
+    font-size: 1.2rem; /* Tamaño de fuente más grande */
+    margin: 40px; /* Margen alrededor del formulario */
+    max-width: 500px; /* Ancho máximo del formulario */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.form-container label {
+    display: block; /* Pone cada etiqueta en una nueva línea */
+    margin-bottom: 10px; /* Espacio debajo de cada etiqueta */
+    font-weight: bold; /* Hace las etiquetas en negrita */
+    color: #333; /* Color de las etiquetas */
+}
+
+.form-container input {
+    width: 100%; /* Hace los campos de entrada más amplios */
+    padding: 12px; /* Agrega espacio interno a los campos */
+    margin-bottom: 20px; /* Espacio debajo de cada campo */
+    font-size: 1rem; /* Tamaño de fuente en los campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Evita el desbordamiento del borde */
+}
+
+.form-container input::placeholder {
+    color: #aaa; /* Color de los placeholders */
+    font-size: 0.95rem; /* Tamaño de los placeholders */
+}
