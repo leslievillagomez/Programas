@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../recursos/estilos.css">
+    <link rel="shortcut icon" href="../recursos/favicon.png" type="image/x-icon">
     <title>Document</title>
 
 </head>
@@ -59,9 +60,13 @@ if($count==1){
             '$_POST[email]',
             '$_POST[password]'
         )");
+        echo"<p>.</p>";
         echo "<br> <h3>Usuario creado con exito</h3>";
+        echo"<p>.</p>";
         echo "<a href='../Registro.php' class='btn-custom'>Nuevo registro</a>";
-        echo "<a href='../Principal.php' class='btn-custom'>Ver registro/a>";
+        echo"<p>.</p>";
+        echo "<a href='../Principal.php' class='btn-custom'>Ver registro</a>";
+        echo"<p>.</p>";
 }
 ?>
 
