@@ -1,0 +1,185 @@
+/*body {
+    background: rgb(15,36,69);
+    background: linear-gradient(90deg, rgba(15,36,69,1) 0%, rgba(78,9,121,1) 35%, rgba(255,110,213,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+form {
+    background: rgb(223, 192, 247);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(252, 26, 26, 0.3);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(54, 9, 50);
+}
+
+input {
+
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(48, 2, 56);
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    font-size: 16px;
+    color: black;
+}
+
+input:focus {
+    transform: scale(1.05);
+    outline: none;
+    border-color: navy;
+}
+
+button {
+    background: rgb(15,36,69);
+    background: linear-gradient(90deg, rgba(15, 36, 69, 0.486) 0%, rgba(78, 9, 121, 0.5) 35%, rgba(255, 110, 214, 0.454) 100%);
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid rgb(87, 3, 100);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(174, 0, 255, 0.527);
+    color: white;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgb(6, 5, 5);
+    margin-bottom: 20px;
+    font-size: 24px;
+}*/
+
+
+
+body {
+    font-family: Georgia, serif;
+    background-color: white;
+    color: rgb(225, 34, 126);
+    margin: 100;
+    padding: 20;
+}
+
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: transparent; 
+    border: none; 
+}
+
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 1em;
+    font-family: Georgia, serif;
+    color: black;
+    outline: none;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-bottom: 2px solid #666;
+}
+
+
+button {
+    width: 70%;
+    padding: 10px;
+    background-color: #db20b3;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button:active {
+    background-color: orange;
+}
+
+button:hover {
+    background-color: #b80260;
+}
+
+
+.image-container {
+    width: 50%; 
+    text-align: center;
+}
+
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    max-width: 500px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 50px;
+    gap: 2px;
+}
+
+
